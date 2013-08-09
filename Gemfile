@@ -28,3 +28,7 @@ group :appservers do
   gem 'unicorn'
   gem 'thin'
 end
+
+group :development do
+  gem 'pry'
+end  
